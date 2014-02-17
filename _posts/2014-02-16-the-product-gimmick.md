@@ -43,7 +43,7 @@ Using some successful companies as examples:
 *  Instagram provides image sharing
 *  Vine provides micro-"vlog"ing
 
-
+<br/>
 **2. Ask if the feature you're providing directly adds to or complements the problem your product solves**
 
 Instagram provides an image sharing service. Therefore the ability to edit

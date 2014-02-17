@@ -9,10 +9,8 @@ The Product Gimmick
 One thing that I see frequently in the technology industry
 is the Product Gimmick.
 
-Now what, you may ask, is a Product Gimmick?
-
-Product Gimmick
----------------
+Product Gimmick Definition
+--------------------------
 
 > A Product Gimmick is when you add a feature to your product
 > that incentivizes users to perform an action not related to the

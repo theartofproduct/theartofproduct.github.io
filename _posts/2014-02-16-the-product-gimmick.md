@@ -32,7 +32,7 @@ as an idea for the sake of solving a problem. Thus:
 How to Avoid Creating a Product Gimmick
 ---------------------------------------
 
-1.  Identify What Problem Your Product is Solving
+**1. Identify What Problem Your Product is Solving**
 
 What value does your product bring to its users? What problem are you solving?
 What utility does your product provide?
@@ -43,7 +43,7 @@ Using some successful companies as examples:
 *  Instagram provides image sharing
 *  Vine provides microvlogging
 
-2.  Ask if the feature you're providing directly adds to or complements the problem your product solves
+**2. Ask if the feature you're providing directly adds to or complements the problem your product solves**
 
 Instagram provides an image sharing service. Therefore the ability to edit
 your photos directly adds or complements to what the central utility of Instagram provides.

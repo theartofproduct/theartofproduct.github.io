@@ -41,7 +41,8 @@ Using some successful companies as examples:
 
 *  Twitter provides microblogging
 *  Instagram provides image sharing
-*  Vine provides microvlogging
+*  Vine provides micro-"vlog"ing
+
 
 **2. Ask if the feature you're providing directly adds to or complements the problem your product solves**
 

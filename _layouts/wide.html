@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Home - the Art of Product</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}the Art of Product</title>
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Open+Sans|Merriweather+Sans' rel='stylesheet' type='text/css'>
     <style type="text/css">
         * { margin: 0; padding: 0; }
@@ -39,54 +39,7 @@
     </div>
     <div class="cw" style="margin-top:20px;">
         <div style="border-top:1px solid #ccc;padding-top:6px;">
-            <h1>Welcome!</h1>
-
-<p>
-My name is Peter and I've been working in technology
-for over fifteen years, in roles ranging from 
-engineer to CTO to Product Manager. Throughout this time
-I've learned alot about what does and doesn't work in the technology
-industry, and have created this blog to share my experiences and foster
-discussion.
-</p>
-
-<p>Articles</p>
-
-<ul>
-    
-        <li>
-            <a href="/2014/02/23/traits-of-exceptional-product-managers.html">Traits of Exceptional Product Managers</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/23/hiring-exceptional-product-managers.html">Hiring Exceptional Product Managers</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/23/evolutionary-agile.html">Evolutionary Agile</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/22/getting-to-minimum-viable-product.html">Getting to Minimum Viable Product</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/22/dual-track-agile.html">Dual-Track Agile</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/21/live-rapid-prototyping.html">Live Rapid Prototyping</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/21/effective-prototyping-visualization.html">Effective Prototyping, Visualization</a>
-        </li>
-    
-        <li>
-            <a href="/2014/02/16/the-product-gimmick.html">The Product Gimmick</a>
-        </li>
-    
-</ul>
+            {{ content }}
         </div>
     </div>
 </body>

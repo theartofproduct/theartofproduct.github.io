@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Evolutionary Agile &mdash; the Art of Product</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}the Art of Product</title>
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Open+Sans|Merriweather+Sans' rel='stylesheet' type='text/css'>
     <style type="text/css">
         * { margin: 0; padding: 0; }
@@ -16,7 +16,7 @@
 
         p, h1, h2, h3, h4, h5, h6 { margin-bottom: 12px; }
 
-        ul { margin-left: 16px; margin-bottom:12px;}
+        ul, ol { margin-left: 16px; margin-bottom:12px;}
 
         blockquote { border-left: 3px solid #999; background-color: #f9f9f9; padding: 6px 10px; margin-bottom:12px; }
         blockquote p { margin-bottom: 0px; }
@@ -40,7 +40,7 @@
     <div class="cw" style="margin-top:20px;">
         <div style="float:left;width:600px;">
             <div style="border-top:1px solid #ccc;padding-top:6px;">
-                <h1 id="evolutionary_agile">Evolutionary Agile</h1>
+                {{ content }}
             </div>
         </div>
         <div style="margin-left:620px;">
